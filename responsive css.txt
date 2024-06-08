@@ -1,0 +1,50 @@
+/* Resetting default margin and padding */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling the navigation menu */
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: linear-gradient(to right, #4a90e2, #368bd6); /* Blue gradient background */
+    z-index: 1000; /* Ensures it's above other content */
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#navbar li {
+    float: left;
+}
+
+#navbar li a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: #fff; /* White font color */
+    transition: background-color 0.3s ease;
+}
+
+/* Style changes when hovering */
+#navbar li a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Light background color */
+}
+
+/* Styling the page content */
+#content {
+    margin-top: 60px; /* Adjust according to navbar height */
+    padding: 20px;
+    height: 1500px; /* Just for demonstration */
+}
+
+/* Style for page headings */
+h1 {
+    color: #333; /* Dark font color */
+}
